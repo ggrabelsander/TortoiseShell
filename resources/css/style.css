@@ -11,7 +11,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 30rem;
-
+  display: block;
 }
 .container {
   display: flex;
@@ -20,22 +20,81 @@ body {
 .header {
   background-color: cadetblue;
   color: white;
-  display: flex;
-  justify-content: space between;
-  align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+  top: 1rem;
 }
-.header img {
+.header .container {
+  justify-content: space-between;
+}
+.logo {
+  justify-content: center;
+  display: flex;
+  padding: auto .5rem;
+}
+.logo img {
   height: 1.5rem;
 }
-.header span {
+.logo span {
   font-size: 1rem;
   margin-left: 1rem;
 }
+.nav {
+  display: flex;
+}
 .nav a {
   color: white;
-  text-align: right;
+  padding: 0 1rem;
 }
 .banner-message {
-
+  background-color: white;
+  padding: 1.5rem 5rem;
+  line-height: 1.2;
+  width: 24rem;
+  margin-top: 10rem;
+  margin-right: 6rem;
+  float: right;
+}
+.banner-message h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+.icon-banner {
+  height: 8rem;
+  margin: 3rem auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.paper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto 3rem;
+}
+#paper {
+  width: 3.5rem;
+}
+.ruler {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto 3rem;
+}
+#ruler {
+  width: 5rem;
+}
+.truck {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto 3rem;
+}
+#truck {
+  width: 5rem;
 }
